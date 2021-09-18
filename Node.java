@@ -1,9 +1,9 @@
 public class Node{
-    Object val;
+    Object element;
     Node next;
     
     public Node(Object v, Node n){
-        val = v;
+        element = v;
         next = n;
     }
 }
